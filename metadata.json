@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Hango - Học và Tiến lên",
+  "description": "Ứng dụng học từ vựng tiếng Hàn nhanh chóng, hiệu quả theo cấp độ Sơ cấp, Trung cấp, Cao cấp kèm trò chơi bài tập ôn tập sinh động.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

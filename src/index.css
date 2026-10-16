@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  
+  body {
+    overscroll-behavior-y: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: #ffffff;
+    color: #0f172a;
+  }
+}
+
+/* Hide scrollbar for smooth mobile carousels while maintaining touch scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Korean Taegeuk-inspired soft pastel background (Pastel Blue, Pastel Red, White) */
+.pastel-app-canvas {
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(at 5% 0%, rgba(186, 230, 253, 0.5) 0px, transparent 45%),
+    radial-gradient(at 95% 0%, rgba(254, 205, 211, 0.45) 0px, transparent 45%),
+    radial-gradient(at 100% 90%, rgba(254, 226, 226, 0.4) 0px, transparent 50%),
+    radial-gradient(at 0% 90%, rgba(191, 219, 254, 0.4) 0px, transparent 50%),
+    radial-gradient(at 50% 40%, rgba(255, 255, 255, 0.9) 0px, transparent 65%);
+  background-attachment: fixed;
+}
